@@ -1,0 +1,105 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 108,
+			"width": 216
+		}
+	},
+	"inputs": [ {
+		"command": "BETS_UNIT",
+		"name": "leader"
+	} ],
+	"outputs": [],
+	"properties": {
+		"44y0eCq6lzcjHx98HitWqhhuWKYIz8z0": {
+			"height": 102,
+			"title": "store",
+			"width": 245,
+			"x": 533,
+			"y": -128
+		},
+		"Vz7pXP1Ja1J4kie69oL2IXJ92mQANd0r": {
+			"height": 132,
+			"title": "nota_kcky_gamma.moveTogether",
+			"width": 278,
+			"x": 524,
+			"y": 88
+		},
+		"iy1aJDMtnZ5VEl7pSt9OVsZ2mm1Q4ymA": {
+			"height": 105,
+			"title": "store",
+			"width": 250,
+			"x": 523,
+			"y": -19
+		},
+		"koa6ACzBr1T8cVEZaGPXaueZ0JynF8uu": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 254,
+			"y": 17
+		}
+	},
+	"roles": [ {
+		"categories": [ "nota_kcky_gamma.maverick" ],
+		"name": "Leader"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [],
+			"id": "44y0eCq6lzcjHx98HitWqhhuWKYIz8z0",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "w"
+			}, {
+				"name": "value",
+				"value": "map.Wind()"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [],
+			"id": "iy1aJDMtnZ5VEl7pSt9OVsZ2mm1Q4ymA",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "a"
+			}, {
+				"name": "value",
+				"value": "{w.normDirX, w.normDirZ}"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [],
+			"id": "Vz7pXP1Ja1J4kie69oL2IXJ92mQANd0r",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "amount",
+				"value": "a"
+			}, {
+				"name": "distanceScale",
+				"value": "20"
+			}, {
+				"name": "leader",
+				"value": "leader"
+			}, {
+				"name": "gap",
+				"value": "40"
+			}, {
+				"name": "scriptName",
+				"value": "nota_kcky_gamma.moveTogether"
+			} ],
+			"scriptName": "nota_kcky_gamma.moveTogether"
+		} ],
+		"id": "koa6ACzBr1T8cVEZaGPXaueZ0JynF8uu",
+		"nodeType": "sequence",
+		"parameters": []
+	}
+}
