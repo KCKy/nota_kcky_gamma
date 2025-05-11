@@ -10,5 +10,5 @@ function getInfo() return { period = -1 } end
 
 return function()
 	local x, _, z = Spring.GetWind()
-	return {x = x, z = z}
+	return Vec3(x, 0, z)
 end
