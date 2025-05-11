@@ -1,0 +1,62 @@
+{
+	"additionalNodes": [ {
+		"children": [],
+		"id": "dux5WYcvgGQ3UrjJS84atnTPB9xUDZHQ",
+		"nodeType": "luaCommand",
+		"parameters": [ {
+			"name": "var",
+			"value": "missionInfo"
+		}, {
+			"name": "value",
+			"value": "core.MissionInfo()"
+		}, {
+			"name": "scriptName",
+			"value": "store"
+		} ],
+		"scriptName": "store"
+	} ],
+	"additionalParameters": {
+		"root": {
+			"height": 88,
+			"width": 180
+		}
+	},
+	"inputs": [],
+	"outputs": [],
+	"properties": {
+		"7uwrt3PK9uito6qmJJT6n8FzVAlva1Eu": {
+			"height": 94,
+			"title": "store",
+			"width": 285,
+			"x": 275,
+			"y": 81
+		},
+		"dux5WYcvgGQ3UrjJS84atnTPB9xUDZHQ": {
+			"height": 94,
+			"title": "store",
+			"width": 256,
+			"x": 270,
+			"y": -68
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [],
+		"id": "7uwrt3PK9uito6qmJJT6n8FzVAlva1Eu",
+		"nodeType": "luaCommand",
+		"parameters": [ {
+			"name": "var",
+			"value": "hehe"
+		}, {
+			"name": "value",
+			"value": "nota_kcky_gamma.HillTops(10)"
+		}, {
+			"name": "scriptName",
+			"value": "store"
+		} ],
+		"scriptName": "store"
+	}
+}
