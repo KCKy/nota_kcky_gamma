@@ -8,17 +8,40 @@ local sensorInfo = {
 
 function getInfo() return { period = -1 } end
 
-return function(step)
-	local width = Game.mapSizeX / Game.squareSize
-	local height = Game.mapSizeZ / Game.squareSize
+return function(step, threshold, peak_error)
+	local width = Game.mapSizeX
+	local height = Game.mapSizeZ
 
 	local collectedPoints = {}
 
 	for x = 0, width, step do
-		for y = 0, height, step do
-			table.insert(collectedPoints, {x=x, y=y})
+		for z = 0, height, step do
+			local point = Vec3(x, Spring.GetGroundHeight(x, z), z)
+			if point.y >= threshold then
+				table.insert(collectedPoints, point)
+			end
 		end
 	end
 
-	return collectedPoints
+	local clusters = { }
+	local weights = { }
+
+	for _, pos in ipairs(collectedPoints) do
+		local success = true
+		for i, hilltop in ipairs(clusters) do
+			local middle = (pos + hilltop) / 2
+			if Spring.GetGroundHeight(middle.x, middle.z) >= threshold - peak_error then
+				clusters[i] = (hilltop * weights[i] + pos) / (weights[i] + 1)
+				weights[i] = weights[i] + 1
+				success = false
+				break
+			end
+		end
+		if success then
+			table.insert(clusters, pos)
+			table.insert(weights, 1)
+		end
+	end
+
+	return clusters
 end

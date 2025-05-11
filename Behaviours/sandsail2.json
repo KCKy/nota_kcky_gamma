@@ -84,7 +84,7 @@
 		"categories": [ "nota_kcky_gamma.sandsail2_leader" ],
 		"name": "Leader"
 	}, {
-		"categories": [ "nota_kcky_gamma.sandsail2_follower" ],
+		"categories": [],
 		"name": "Follower"
 	} ],
 	"root": {
