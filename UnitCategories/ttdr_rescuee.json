@@ -1,0 +1,13 @@
+{
+	"types": [ {
+		"name": "armbox"
+	}, {
+		"name": "armbull"
+	}, {
+		"name": "armham"
+	}, {
+		"name": "armllt"
+	}, {
+		"name": "armrock"
+	} ]
+}

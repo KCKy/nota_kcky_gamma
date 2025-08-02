@@ -1,0 +1,667 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 98,
+			"width": 154
+		}
+	},
+	"inputs": [],
+	"outputs": [],
+	"properties": {
+		"13neteq6KcZQXSO2z08gihGp8AFu6P3n": {
+			"height": 153,
+			"title": "reference",
+			"width": 315,
+			"x": 1201,
+			"y": 477
+		},
+		"3oTOmujc84OcNC7LKBp4KklF8wcb6xzh": {
+			"height": 151,
+			"title": "reference",
+			"width": 294,
+			"x": 1225,
+			"y": 473
+		},
+		"6gY9ynMpYzsN5JBUqBw6FrVYfTMxVI6k": {
+			"height": 151,
+			"title": "reference",
+			"width": 310,
+			"x": 1216,
+			"y": 472
+		},
+		"7Yu6f6g2TNpEYJ5dzxioql2DmMONUZcL": {
+			"height": 152,
+			"title": "reference",
+			"width": 309,
+			"x": 1213,
+			"y": 472
+		},
+		"DxQyf8IktxW1d9JgdlIiNifeRpqTJzlw": {
+			"height": 117,
+			"title": "roleSplit",
+			"width": 202,
+			"x": 466,
+			"y": 194
+		},
+		"IGdHw5clhs2myIH4nsL5bQUzqnvaH9gl": {
+			"height": 154,
+			"title": "reference",
+			"width": 318,
+			"x": 1207,
+			"y": 479
+		},
+		"IjXTzpYly4amqbOF95UJd4LWdrC3O8sB": {
+			"height": 54,
+			"title": "Order units to not do stuff by themselves",
+			"width": 320,
+			"x": 447,
+			"y": -98
+		},
+		"SkgTvkRH9EILxaCehAtAJKe5nXuZPKH1": {
+			"height": 153,
+			"title": "reference",
+			"width": 332,
+			"x": 1200,
+			"y": 478
+		},
+		"TzkTBWWoOo1B8dUK4fvV3lszo9rU7co2": {
+			"height": 152,
+			"title": "reference",
+			"width": 320,
+			"x": 1199,
+			"y": 482
+		},
+		"WPLe7FH9PcTVzHIdtPoftp9EuRLIb4fD": {
+			"height": 152,
+			"title": "reference",
+			"width": 304,
+			"x": 1217,
+			"y": 472
+		},
+		"WPMahDs9TGcEQr09P48gvAeiAvb1XNBc": {
+			"height": 54,
+			"title": "nota_kcky_gamma.keepPosition",
+			"width": 266,
+			"x": 1179,
+			"y": 695
+		},
+		"aYP0hovB4PhPOkR7WLyxFM9STx7uE6pF": {
+			"height": 151,
+			"title": "reference",
+			"width": 311,
+			"x": 1213,
+			"y": 479
+		},
+		"c1m8iAkLjkdzAjWwbTDGGM9HvMgnFh8u": {
+			"height": 151,
+			"title": "reference",
+			"width": 301,
+			"x": 1210,
+			"y": 482
+		},
+		"ewteHWVnKPpCDQmWvdncHaGxDfH2GTZL": {
+			"height": 151,
+			"title": "reference",
+			"width": 306,
+			"x": 1205,
+			"y": 511
+		},
+		"iR5Qc4CPr82ZCuDnFH8UKPf9PKyA8164": {
+			"height": 155,
+			"title": "reference",
+			"width": 318,
+			"x": 1211,
+			"y": 477
+		},
+		"mUMQud2PsYFZMzTO2QlAlSGbcuhqoMDQ": {
+			"height": 154,
+			"title": "reference",
+			"width": 306,
+			"x": 1200,
+			"y": 484
+		},
+		"nN1ugeDEP6PE3ke9sTh4rXiFUfe9DCes": {
+			"height": 54,
+			"title": "Others dont concern us",
+			"width": 235,
+			"x": 752,
+			"y": 929
+		},
+		"ndoZIIAx7n7i2QlM2LTRDNJkBgijdgef": {
+			"height": 95,
+			"title": "store",
+			"width": 580,
+			"x": 446,
+			"y": 62
+		},
+		"oxjtKworav1d7izpTXmkALFfkM9ZQ7nW": {
+			"height": 94,
+			"title": "store",
+			"width": 501,
+			"x": 449,
+			"y": -39
+		},
+		"piA6kfgAV6b96O4m7XsiljayamQoVF3W": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 231,
+			"y": 27
+		},
+		"qoMf4mlXvZGR3ju9UVLVXoNXj5ESrBdq": {
+			"height": 153,
+			"title": "reference",
+			"width": 312,
+			"x": 1216,
+			"y": 473
+		},
+		"qopweILJa785Yj7d1PDisLk2N3tWSJFD": {
+			"height": 151,
+			"title": "reference",
+			"width": 308,
+			"x": 1215,
+			"y": 472
+		},
+		"qplZ2GEtZBKxoN9D6H9Twf8TUVh0dCi3": {
+			"height": 156,
+			"title": "reference",
+			"width": 318,
+			"x": 1198,
+			"y": 480
+		},
+		"rE5rrDKTSMKr4aZozroWuILCKXoIxRO5": {
+			"height": 153,
+			"title": "reference",
+			"width": 318,
+			"x": 1208,
+			"y": 478
+		},
+		"u8QSiFxQ4RUzCkkn7ChfZYoD7l5SfN2O": {
+			"height": 152,
+			"title": "reference",
+			"width": 326,
+			"x": 1193,
+			"y": 484
+		},
+		"uZbIBy4ourV02VAzduJ5e7bopf55beIS": {
+			"height": 70,
+			"title": "Rescueer units work in parallel",
+			"width": 275,
+			"x": 792,
+			"y": 209
+		},
+		"v5QvIOUwivSIYx8Kt0nlTuMLJ6rtwMv6": {
+			"height": 154,
+			"title": "reference",
+			"width": 318,
+			"x": 1205,
+			"y": 480
+		},
+		"vUtyjyXB8JW0fghCepQlv6tjdL5CPmca": {
+			"height": 54,
+			"title": "Kill scouts, they only take up space",
+			"width": 282,
+			"x": 752,
+			"y": 821
+		},
+		"xVpUzwZOwCRwXPRSPvLHEuwc8cHMfB4o": {
+			"height": 92,
+			"title": "Reset prior reservations",
+			"width": 233,
+			"x": 452,
+			"y": -192
+		},
+		"yQ8Z6CjJMC6bbymxOmAPBAx0li4HaRBT": {
+			"height": 155,
+			"title": "reference",
+			"width": 324,
+			"x": 1198,
+			"y": 483
+		},
+		"ypogpDzwkRPk1PU52R5v2w1tth2XS2us": {
+			"height": 57,
+			"title": "Rescuee units just stay in place",
+			"width": 381,
+			"x": 755,
+			"y": 595
+		}
+	},
+	"roles": [ {
+		"categories": [ "Common.transports" ],
+		"name": "transport"
+	}, {
+		"categories": [ "nota_kcky_gamma.ttdr_rescuee" ],
+		"name": "rescuee"
+	}, {
+		"categories": [ "nota_kcky_gamma.ttdr_scout" ],
+		"name": "scout"
+	}, {
+		"categories": [],
+		"name": "other"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [],
+			"id": "xVpUzwZOwCRwXPRSPvLHEuwc8cHMfB4o",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "global.reserved"
+			}, {
+				"name": "value",
+				"value": "nil"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [],
+			"id": "IjXTzpYly4amqbOF95UJd4LWdrC3O8sB",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "scriptName",
+				"value": "nota_kcky_gamma.keepCalm"
+			} ],
+			"scriptName": "nota_kcky_gamma.keepCalm"
+		}, {
+			"children": [],
+			"id": "oxjtKworav1d7izpTXmkALFfkM9ZQ7nW",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "rescuers"
+			}, {
+				"name": "value",
+				"value": "core.FilterUnitsByCategory(units, Categories.Common.transports)"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [],
+			"id": "ndoZIIAx7n7i2QlM2LTRDNJkBgijdgef",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "rescuees"
+			}, {
+				"name": "value",
+				"value": "core.FilterUnitsByCategory(units, Categories.nota_kcky_gamma.ttdr_rescuee)"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [ {
+				"children": [ {
+					"children": [],
+					"id": "qopweILJa785Yj7d1PDisLk2N3tWSJFD",
+					"nodeType": "reference",
+					"parameters": [ {
+						"name": "behaviourName",
+						"value": "nota_kcky_gamma.ttdr_rescue"
+					} ],
+					"referenceInputs": [ {
+						"name": "rescuer",
+						"value": "rescuers[1]"
+					}, {
+						"name": "rescuees",
+						"value": "rescuees"
+					} ],
+					"referenceOutputs": []
+				}, {
+					"children": [],
+					"id": "7Yu6f6g2TNpEYJ5dzxioql2DmMONUZcL",
+					"nodeType": "reference",
+					"parameters": [ {
+						"name": "behaviourName",
+						"value": "nota_kcky_gamma.ttdr_rescue"
+					} ],
+					"referenceInputs": [ {
+						"name": "rescuer",
+						"value": "rescuers[2]"
+					}, {
+						"name": "rescuees",
+						"value": "rescuees"
+					} ],
+					"referenceOutputs": []
+				}, {
+					"children": [],
+					"id": "6gY9ynMpYzsN5JBUqBw6FrVYfTMxVI6k",
+					"nodeType": "reference",
+					"parameters": [ {
+						"name": "behaviourName",
+						"value": "nota_kcky_gamma.ttdr_rescue"
+					} ],
+					"referenceInputs": [ {
+						"name": "rescuer",
+						"value": "rescuers[3]"
+					}, {
+						"name": "rescuees",
+						"value": "rescuees"
+					} ],
+					"referenceOutputs": []
+				}, {
+					"children": [],
+					"id": "WPLe7FH9PcTVzHIdtPoftp9EuRLIb4fD",
+					"nodeType": "reference",
+					"parameters": [ {
+						"name": "behaviourName",
+						"value": "nota_kcky_gamma.ttdr_rescue"
+					} ],
+					"referenceInputs": [ {
+						"name": "rescuer",
+						"value": "rescuers[4]"
+					}, {
+						"name": "rescuees",
+						"value": "rescuees"
+					} ],
+					"referenceOutputs": []
+				}, {
+					"children": [],
+					"id": "3oTOmujc84OcNC7LKBp4KklF8wcb6xzh",
+					"nodeType": "reference",
+					"parameters": [ {
+						"name": "behaviourName",
+						"value": "nota_kcky_gamma.ttdr_rescue"
+					} ],
+					"referenceInputs": [ {
+						"name": "rescuer",
+						"value": "rescuers[5]"
+					}, {
+						"name": "rescuees",
+						"value": "rescuees"
+					} ],
+					"referenceOutputs": []
+				}, {
+					"children": [],
+					"id": "qoMf4mlXvZGR3ju9UVLVXoNXj5ESrBdq",
+					"nodeType": "reference",
+					"parameters": [ {
+						"name": "behaviourName",
+						"value": "nota_kcky_gamma.ttdr_rescue"
+					} ],
+					"referenceInputs": [ {
+						"name": "rescuer",
+						"value": "rescuers[6]"
+					}, {
+						"name": "rescuees",
+						"value": "rescuees"
+					} ],
+					"referenceOutputs": []
+				}, {
+					"children": [],
+					"id": "13neteq6KcZQXSO2z08gihGp8AFu6P3n",
+					"nodeType": "reference",
+					"parameters": [ {
+						"name": "behaviourName",
+						"value": "nota_kcky_gamma.ttdr_rescue"
+					} ],
+					"referenceInputs": [ {
+						"name": "rescuer",
+						"value": "rescuers[7]"
+					}, {
+						"name": "rescuees",
+						"value": "rescuees"
+					} ],
+					"referenceOutputs": []
+				}, {
+					"children": [],
+					"id": "iR5Qc4CPr82ZCuDnFH8UKPf9PKyA8164",
+					"nodeType": "reference",
+					"parameters": [ {
+						"name": "behaviourName",
+						"value": "nota_kcky_gamma.ttdr_rescue"
+					} ],
+					"referenceInputs": [ {
+						"name": "rescuer",
+						"value": "rescuers[8]"
+					}, {
+						"name": "rescuees",
+						"value": "rescuees"
+					} ],
+					"referenceOutputs": []
+				}, {
+					"children": [],
+					"id": "rE5rrDKTSMKr4aZozroWuILCKXoIxRO5",
+					"nodeType": "reference",
+					"parameters": [ {
+						"name": "behaviourName",
+						"value": "nota_kcky_gamma.ttdr_rescue"
+					} ],
+					"referenceInputs": [ {
+						"name": "rescuer",
+						"value": "rescuers[9]"
+					}, {
+						"name": "rescuees",
+						"value": "rescuees"
+					} ],
+					"referenceOutputs": []
+				}, {
+					"children": [],
+					"id": "SkgTvkRH9EILxaCehAtAJKe5nXuZPKH1",
+					"nodeType": "reference",
+					"parameters": [ {
+						"name": "behaviourName",
+						"value": "nota_kcky_gamma.ttdr_rescue"
+					} ],
+					"referenceInputs": [ {
+						"name": "rescuer",
+						"value": "rescuers[10]"
+					}, {
+						"name": "rescuees",
+						"value": "rescuees"
+					} ],
+					"referenceOutputs": []
+				}, {
+					"children": [],
+					"id": "IGdHw5clhs2myIH4nsL5bQUzqnvaH9gl",
+					"nodeType": "reference",
+					"parameters": [ {
+						"name": "behaviourName",
+						"value": "nota_kcky_gamma.ttdr_rescue"
+					} ],
+					"referenceInputs": [ {
+						"name": "rescuer",
+						"value": "rescuers[11]"
+					}, {
+						"name": "rescuees",
+						"value": "rescuees"
+					} ],
+					"referenceOutputs": []
+				}, {
+					"children": [],
+					"id": "aYP0hovB4PhPOkR7WLyxFM9STx7uE6pF",
+					"nodeType": "reference",
+					"parameters": [ {
+						"name": "behaviourName",
+						"value": "nota_kcky_gamma.ttdr_rescue"
+					} ],
+					"referenceInputs": [ {
+						"name": "rescuer",
+						"value": "rescuers[12]"
+					}, {
+						"name": "rescuees",
+						"value": "rescuees"
+					} ],
+					"referenceOutputs": []
+				}, {
+					"children": [],
+					"id": "qplZ2GEtZBKxoN9D6H9Twf8TUVh0dCi3",
+					"nodeType": "reference",
+					"parameters": [ {
+						"name": "behaviourName",
+						"value": "nota_kcky_gamma.ttdr_rescue"
+					} ],
+					"referenceInputs": [ {
+						"name": "rescuer",
+						"value": "rescuers[13]"
+					}, {
+						"name": "rescuees",
+						"value": "rescuees"
+					} ],
+					"referenceOutputs": []
+				}, {
+					"children": [],
+					"id": "v5QvIOUwivSIYx8Kt0nlTuMLJ6rtwMv6",
+					"nodeType": "reference",
+					"parameters": [ {
+						"name": "behaviourName",
+						"value": "nota_kcky_gamma.ttdr_rescue"
+					} ],
+					"referenceInputs": [ {
+						"name": "rescuer",
+						"value": "rescuers[14]"
+					}, {
+						"name": "rescuees",
+						"value": "rescuees"
+					} ],
+					"referenceOutputs": []
+				}, {
+					"children": [],
+					"id": "TzkTBWWoOo1B8dUK4fvV3lszo9rU7co2",
+					"nodeType": "reference",
+					"parameters": [ {
+						"name": "behaviourName",
+						"value": "nota_kcky_gamma.ttdr_rescue"
+					} ],
+					"referenceInputs": [ {
+						"name": "rescuer",
+						"value": "rescuers[15]"
+					}, {
+						"name": "rescuees",
+						"value": "rescuees"
+					} ],
+					"referenceOutputs": []
+				}, {
+					"children": [],
+					"id": "c1m8iAkLjkdzAjWwbTDGGM9HvMgnFh8u",
+					"nodeType": "reference",
+					"parameters": [ {
+						"name": "behaviourName",
+						"value": "nota_kcky_gamma.ttdr_rescue"
+					} ],
+					"referenceInputs": [ {
+						"name": "rescuer",
+						"value": "rescuers[16]"
+					}, {
+						"name": "rescuees",
+						"value": "rescuees"
+					} ],
+					"referenceOutputs": []
+				}, {
+					"children": [],
+					"id": "yQ8Z6CjJMC6bbymxOmAPBAx0li4HaRBT",
+					"nodeType": "reference",
+					"parameters": [ {
+						"name": "behaviourName",
+						"value": "nota_kcky_gamma.ttdr_rescue"
+					} ],
+					"referenceInputs": [ {
+						"name": "rescuer",
+						"value": "rescuers[17]"
+					}, {
+						"name": "rescuees",
+						"value": "rescuees"
+					} ],
+					"referenceOutputs": []
+				}, {
+					"children": [],
+					"id": "mUMQud2PsYFZMzTO2QlAlSGbcuhqoMDQ",
+					"nodeType": "reference",
+					"parameters": [ {
+						"name": "behaviourName",
+						"value": "nota_kcky_gamma.ttdr_rescue"
+					} ],
+					"referenceInputs": [ {
+						"name": "rescuer",
+						"value": "rescuers[20]"
+					}, {
+						"name": "rescuees",
+						"value": "rescuees"
+					} ],
+					"referenceOutputs": []
+				}, {
+					"children": [],
+					"id": "u8QSiFxQ4RUzCkkn7ChfZYoD7l5SfN2O",
+					"nodeType": "reference",
+					"parameters": [ {
+						"name": "behaviourName",
+						"value": "nota_kcky_gamma.ttdr_rescue"
+					} ],
+					"referenceInputs": [ {
+						"name": "rescuer",
+						"value": "rescuers[18]"
+					}, {
+						"name": "rescuees",
+						"value": "rescuees"
+					} ],
+					"referenceOutputs": []
+				}, {
+					"children": [],
+					"id": "ewteHWVnKPpCDQmWvdncHaGxDfH2GTZL",
+					"nodeType": "reference",
+					"parameters": [ {
+						"name": "behaviourName",
+						"value": "nota_kcky_gamma.ttdr_rescue"
+					} ],
+					"referenceInputs": [ {
+						"name": "rescuer",
+						"value": "rescuers[19]"
+					}, {
+						"name": "rescuees",
+						"value": "rescuees"
+					} ],
+					"referenceOutputs": []
+				} ],
+				"id": "uZbIBy4ourV02VAzduJ5e7bopf55beIS",
+				"nodeType": "parallel",
+				"parameters": [ {
+					"name": "mode",
+					"value": "any-success"
+				} ]
+			}, {
+				"children": [ {
+					"children": [],
+					"id": "WPMahDs9TGcEQr09P48gvAeiAvb1XNBc",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "scriptName",
+						"value": "nota_kcky_gamma.keepPosition"
+					} ],
+					"scriptName": "nota_kcky_gamma.keepPosition"
+				} ],
+				"id": "ypogpDzwkRPk1PU52R5v2w1tth2XS2us",
+				"nodeType": "repeat",
+				"parameters": []
+			}, {
+				"children": [],
+				"id": "vUtyjyXB8JW0fghCepQlv6tjdL5CPmca",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "scriptName",
+					"value": "nota_kcky_gamma.selfDestruct"
+				} ],
+				"scriptName": "nota_kcky_gamma.selfDestruct"
+			}, {
+				"children": [],
+				"id": "nN1ugeDEP6PE3ke9sTh4rXiFUfe9DCes",
+				"nodeType": "success",
+				"parameters": []
+			} ],
+			"id": "DxQyf8IktxW1d9JgdlIiNifeRpqTJzlw",
+			"nodeType": "roleSplit",
+			"parameters": [ {
+				"name": "mode",
+				"value": "all-success"
+			} ]
+		} ],
+		"id": "piA6kfgAV6b96O4m7XsiljayamQoVF3W",
+		"nodeType": "sequence",
+		"parameters": []
+	}
+}
