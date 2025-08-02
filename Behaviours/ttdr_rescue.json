@@ -26,8 +26,8 @@
 			"height": 60,
 			"title": "repeat",
 			"width": 131,
-			"x": 512,
-			"y": 79
+			"x": 514,
+			"y": 61
 		},
 		"6MxmJ8NpH7kDvi1k7JSbuZJF88ULAIOy": {
 			"height": 97,
@@ -54,8 +54,8 @@
 			"height": 119,
 			"title": "store",
 			"width": 331,
-			"x": 1196,
-			"y": 193
+			"x": 1144,
+			"y": 208
 		},
 		"PyLETFIhBQ9swXb8qzaCOglIe4eITBH8": {
 			"height": 92,
@@ -96,29 +96,36 @@
 			"height": 104,
 			"title": "store",
 			"width": 296,
-			"x": 1115,
-			"y": 754
+			"x": 1104,
+			"y": 901
 		},
 		"et8zUyksssBMYaMd61pNymHZ6BCv3XyF": {
-			"height": 103,
+			"height": 107,
 			"title": "store",
-			"width": 835,
-			"x": 1141,
-			"y": 302
+			"width": 908,
+			"x": 1146,
+			"y": 335
 		},
 		"gysgmT6vA22SNwX4lsluUPTLUFSbACRj": {
 			"height": 104,
 			"title": "store",
 			"width": 296,
-			"x": 922,
-			"y": 863
+			"x": 1027,
+			"y": 1056
 		},
 		"iaWKmBIWKT2FQZfLVPBzcVM7ZkWokA39": {
 			"height": 70,
 			"title": "selector",
 			"width": 131,
-			"x": 700,
-			"y": 89
+			"x": 659,
+			"y": -77
+		},
+		"mcFCrcKuX7KLBcjVPEHThRrBbJnvGx4W": {
+			"height": 97,
+			"title": "nota_mestek_labs.followPath",
+			"width": 356,
+			"x": 1118,
+			"y": 662
 		},
 		"oeMEVVg0BGmkAkbVuUljeWeXKxJPWKAV": {
 			"height": 54,
@@ -131,8 +138,15 @@
 			"height": 102,
 			"title": "nota_mestek_labs.unload",
 			"width": 412,
-			"x": 1112,
-			"y": 632
+			"x": 1115,
+			"y": 782
+		},
+		"soGd2bGtnWN07GzNV8bL9qx60VBTRkA6": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 806,
+			"y": 1096
 		},
 		"sqfdwUDMY6ahwOabrXiK6ZK4VhU2MaRQ": {
 			"height": 92,
@@ -147,6 +161,13 @@
 			"width": 194,
 			"x": 1199,
 			"y": 76
+		},
+		"yfXWRshi8xm1racnIwDlXE66zHqkTkh9": {
+			"height": 91,
+			"title": "wait",
+			"width": 141,
+			"x": 1044,
+			"y": 1169
 		}
 	},
 	"roles": [ {
@@ -238,7 +259,7 @@
 							"value": "path"
 						}, {
 							"name": "value",
-							"value": "nota_kcky_gamma.FindPath(Vec3(Spring.GetUnitPosition(rescuer)), Vec3(Spring.GetUnitPosition(rescuee)), nil, 100)"
+							"value": "nota_kcky_gamma.GetPath(global.paths, core.MissionInfo().safeArea.center, Vec3(Spring.GetUnitPosition(rescuee)), global.grid)"
 						}, {
 							"name": "scriptName",
 							"value": "store"
@@ -276,6 +297,21 @@
 						"scriptName": "nota_mestek_labs.load"
 					}, {
 						"children": [],
+						"id": "mcFCrcKuX7KLBcjVPEHThRrBbJnvGx4W",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "unitID",
+							"value": "rescuer"
+						}, {
+							"name": "path",
+							"value": "nota_kcky_gamma.ReversePath(path)"
+						}, {
+							"name": "scriptName",
+							"value": "nota_mestek_labs.followPath"
+						} ],
+						"scriptName": "nota_mestek_labs.followPath"
+					}, {
+						"children": [],
 						"id": "qoSjANhffvMzqwI19MDUVQlfbwgyih1n",
 						"nodeType": "luaCommand",
 						"parameters": [ {
@@ -309,20 +345,33 @@
 					"nodeType": "sequence",
 					"parameters": []
 				}, {
-					"children": [],
-					"id": "gysgmT6vA22SNwX4lsluUPTLUFSbACRj",
-					"nodeType": "luaCommand",
-					"parameters": [ {
-						"name": "var",
-						"value": "global.reserved[rescuee]"
+					"children": [ {
+						"children": [],
+						"id": "gysgmT6vA22SNwX4lsluUPTLUFSbACRj",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "var",
+							"value": "global.reserved[rescuee]"
+						}, {
+							"name": "value",
+							"value": "nil"
+						}, {
+							"name": "scriptName",
+							"value": "store"
+						} ],
+						"scriptName": "store"
 					}, {
-						"name": "value",
-						"value": "nil"
-					}, {
-						"name": "scriptName",
-						"value": "store"
+						"children": [],
+						"id": "yfXWRshi8xm1racnIwDlXE66zHqkTkh9",
+						"nodeType": "wait",
+						"parameters": [ {
+							"name": "time",
+							"value": 10
+						} ]
 					} ],
-					"scriptName": "store"
+					"id": "soGd2bGtnWN07GzNV8bL9qx60VBTRkA6",
+					"nodeType": "sequence",
+					"parameters": []
 				} ],
 				"id": "iaWKmBIWKT2FQZfLVPBzcVM7ZkWokA39",
 				"nodeType": "selector",

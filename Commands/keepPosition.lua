@@ -10,17 +10,11 @@ end
 local commandName = "keepPosition"
 
 function Run(self, units)
-    self.keptPositions = self.keptPositions or { }
     for _, unit in ipairs(units) do
-        if (Sensors.nota_kcky_gamma.UnitSecured(unit)) then
-            self.keptPositions[unit] = self.keptPositions[unit] or Vec3(Spring.GetUnitPosition(unit))
-            local position = self.keptPositions[unit]
-            Spring.GiveOrderToUnit(unit, CMD.MOVE, position:AsSpringVector(), {})
-        end
+        local currentPosition = Vec3(Spring.GetUnitPosition(unit))
+        Spring.GiveOrderToUnit(unit, CMD.MOVE, currentPosition:AsSpringVector(), {})
     end
     return RUNNING
 end
 
-function Reset(self)
-    self.initialized = false
-end
+function Reset() end
